@@ -1,21 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Montserrat&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 * {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0px;
 }
 
 /*defining colors as variables*/
 :root {
-    --primary-color: #fde047;
-    --secondary-color: #facc15;
+    --primary-color: #0ea5e9;
+    --secondary-color: #285780;
+    --header-color: #f8fafc;
 }
 
 /*navigation*/
+
 nav h1 {
     background-color: var(--primary-color);
-    padding: 2rem;
     font-size: 2.5rem;
+    padding: 2rem;
+    color: var(--header-color);
     text-align: center;
 }
 
@@ -36,6 +39,7 @@ nav h1 {
     text-align: center;
 }
 
+/*translation button*/
 .btn-translate {
     background-color: var(--primary-color);
     padding: 1rem 2rem;
@@ -49,6 +53,7 @@ nav h1 {
     background-color: var(--secondary-color);
 }
 
+/*output div heading*/
 .output-text {
     padding: 0.5rem 1rem;
     font-size: large;
@@ -56,6 +61,7 @@ nav h1 {
     margin-bottom: 1rem;
 }
 
+/*div for the output text*/
 .output {
     overflow: scroll;
     margin: auto;
@@ -71,7 +77,7 @@ nav h1 {
 footer {
     text-align: center;
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 1rem 1rem 0rem;
     font-size: large;
 }
 
