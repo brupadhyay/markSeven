@@ -10,7 +10,7 @@ function generateUrl(input){
 
 function errorHandler(error){
     console.log("Error: ", error);
-    alert("Something went wrong! Minions are now bored talking gibberish give them some rest! Server is not responding, please try again later");
+    alert("Something went wrong! Ducks are now bored talking in dolan language, give them some rest! Server is not responding, please try again later");
 }
 
 function clickHandler() {
